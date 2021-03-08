@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogicLayer", "BusinessLogicLayer", "{809D8F73-4F02-453F-8E2C-13368B5F5743}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{FD279260-FC33-4F29-AA3F-0B09254DD957}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayer", "DataAccessLayer", "{1B91DE96-3002-4A79-A615-9D2987E1161D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresentationLayer", "PresentationLayer", "{77D667BE-91B6-4509-BBB7-BB4B0EAB5DB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.Model", "Note.Model\Note.Model.csproj", "{5DA33C41-4B56-4E4B-9E45-AF872639C305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.IDAL", "Note.IDAL\Note.IDAL.csproj", "{A7C2BECB-745D-424D-AF98-E0BEAA201801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.DAL", "Note.DAL\Note.DAL.csproj", "{A2AD8D2E-F8E4-4B27-ACBE-3AB46BBABBB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.BLL", "Note.BLL\Note.BLL.csproj", "{52346580-8158-487B-AD01-280AC87D2265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Note.MVC6", "Note.MVC6\Note.MVC6.csproj", "{E9AFAD04-2062-48AC-8030-30B804957C93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DA33C41-4B56-4E4B-9E45-AF872639C305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA33C41-4B56-4E4B-9E45-AF872639C305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA33C41-4B56-4E4B-9E45-AF872639C305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA33C41-4B56-4E4B-9E45-AF872639C305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7C2BECB-745D-424D-AF98-E0BEAA201801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C2BECB-745D-424D-AF98-E0BEAA201801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C2BECB-745D-424D-AF98-E0BEAA201801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C2BECB-745D-424D-AF98-E0BEAA201801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2AD8D2E-F8E4-4B27-ACBE-3AB46BBABBB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AD8D2E-F8E4-4B27-ACBE-3AB46BBABBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AD8D2E-F8E4-4B27-ACBE-3AB46BBABBB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AD8D2E-F8E4-4B27-ACBE-3AB46BBABBB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52346580-8158-487B-AD01-280AC87D2265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52346580-8158-487B-AD01-280AC87D2265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52346580-8158-487B-AD01-280AC87D2265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52346580-8158-487B-AD01-280AC87D2265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9AFAD04-2062-48AC-8030-30B804957C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9AFAD04-2062-48AC-8030-30B804957C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9AFAD04-2062-48AC-8030-30B804957C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9AFAD04-2062-48AC-8030-30B804957C93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5DA33C41-4B56-4E4B-9E45-AF872639C305} = {FD279260-FC33-4F29-AA3F-0B09254DD957}
+		{A7C2BECB-745D-424D-AF98-E0BEAA201801} = {1B91DE96-3002-4A79-A615-9D2987E1161D}
+		{A2AD8D2E-F8E4-4B27-ACBE-3AB46BBABBB2} = {1B91DE96-3002-4A79-A615-9D2987E1161D}
+		{52346580-8158-487B-AD01-280AC87D2265} = {809D8F73-4F02-453F-8E2C-13368B5F5743}
+		{E9AFAD04-2062-48AC-8030-30B804957C93} = {77D667BE-91B6-4509-BBB7-BB4B0EAB5DB3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF5CB294-EAE7-48A4-A415-27BBC7B05E97}
+	EndGlobalSection
+EndGlobal
