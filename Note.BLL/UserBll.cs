@@ -17,7 +17,7 @@ namespace Note.BLL
         // 강한 결합
         //private UserDal _userDal = new UserDal(); 
 
-        // 약한 결합
+        // 약한 결합 - 인터페이스를 통한 접근 방식
         private readonly IUserDal _userDal;
 
         public UserBll(IUserDal userDal)
